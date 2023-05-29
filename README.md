@@ -1,26 +1,31 @@
-# repositorio-de-ejercicios-java
-Repositorio de ejercicios de Java que hice en la asignatura de "Programación"
+# Repositorio de ejercicios de Java
+Este repositorio contiene una colección de ejercicios de Java realizados como parte de la asignatura de "Programación". Los ejercicios fueron desarrollados utilizando el entorno de desarrollo NetBeans.
 
-Estos ejercicios han sido hechos en Netbeans.
+### Temas abordados
+El repositorio abarca una variedad de temas relacionados con la programación en Java. Los temas cubiertos incluyen:
 
-Tema 1: Conceptos básicos
+- **Tema 1:** Conceptos básicos
+- **Tema 2:** Estructuras de Control - Condicionales
+- **Tema 3:** Estructuras de Control - Bucles
+- **Tema 4:** Cadenas
+- **Tema 5:** Funciones
+- **Tema 6:** Clases y Objetos
+- **Tema 7a:** Arrays y ArrayList (Bloque de Arrays)
+- **Tema 7b:** Arrays y ArrayList (Bloque de ArrayList)
+- **Tema 8:** Clases y Herencia
+- **Tema 9:** Polimorfismo
+- **Tema 10:** Clases Abstractas
 
-Tema 2: Estructuras de Control: Condiciones
+Cada tema contiene una serie de ejercicios prácticos que ayudan a comprender y aplicar los conceptos específicos abordados en la asignatura.
 
-Tema 3: Estructuras de Control: Bucles
+### Uso
+- Puedes clonar este repositorio en tu máquina local utilizando el siguiente comando:
+`git clone https://github.com/CrisCorreaS/repositorio-de-ejercicios-java.git`
 
-Tema 4: Cadenas
+- Explora los diferentes temas y ejercicios en la estructura de directorios del repositorio. Cada ejercicio se encuentra en una carpeta separada e incluye los archivos de código fuente correspondientes.
 
-Tema 5: Funciones
+### Contribuciones
+Las contribuciones a este repositorio son bienvenidas. Si deseas agregar tus propios ejercicios de Java o realizar mejoras en los ejercicios existentes, puedes enviar una solicitud de pull.
 
-Tema 6: Clases y Objetos
-
-Tema 7a: Arrays y ArrayList (Bloque de Arrays)
-
-Tema 7b: Arrays y ArrayList (Bloque de ArrayList)
-
-Tema 8: Clases y Herencia
-
-Tema 9: Polimorfismo
-
-Tema 10: Clases Abstractas
+### Licencia
+Este proyecto está bajo la Licencia MIT.
