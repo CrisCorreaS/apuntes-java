@@ -1,6 +1,5 @@
 //Cristina Correa Segade
 
-//ESTÁ MAL
 /*
 A partir de las clases Nim y Consola, crea un programa que juegue al NIM contra la máquina.
 Se trata de un tablero con 3 filas de palillos, con 3, 5 y 7 palillos respectivamente. Dos jugadores por
@@ -105,6 +104,7 @@ public class CCSt06e06 {
             
             if(nim.fin()){
                 System.out.println("El juego ha finalizado");
+                fin = true;
             }
         }while(!fin);
         

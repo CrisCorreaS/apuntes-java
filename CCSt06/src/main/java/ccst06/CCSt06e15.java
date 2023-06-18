@@ -13,14 +13,41 @@ Ejecútalo varias veces.
 
 package ccst06;
 
-import java.util.Scanner;
+import java.util.Random;
 
 
 public class CCSt06e15 {
 
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        int dineroInicial = 10000;
+        int dineroApuesta = 1;
+        int numeroJuegos = 10000;
+        int dineroActual = dineroInicial;
+        int contadorFallos = 0;
+        int contadorAciertos = 0;
         
+        Ruleta ruleta = new Ruleta();
+        Random random = new Random();
+        
+        for(int i = 0; i<numeroJuegos; i++){
+            ruleta.girarRuleta();
+            
+            boolean elegirPar = random.nextBoolean();
+            
+            if((elegirPar && ruleta.jugarAPar()) || (!elegirPar && !ruleta.jugarAPar())){
+                dineroActual += dineroApuesta;
+                contadorAciertos ++;
+            }
+            else{
+                dineroActual -= dineroApuesta;
+                contadorFallos++;
+            }
+        }
+        
+        System.out.println("El dinero inicial era de " + dineroInicial + "€");
+        System.out.println("El dinero final fue de " + dineroActual + "€");
+        System.out.println("Ganamos: " + contadorAciertos + " veces");
+        System.out.println("Perdimos: " + contadorFallos + " veces");
         
     }
     
