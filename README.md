@@ -1,4 +1,7 @@
 # Repositorio de ejercicios de Java
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+
+
 Este repositorio contiene una colección de ejercicios de Java realizados como parte de la asignatura de "Programación". Los ejercicios fueron desarrollados utilizando el entorno de desarrollo NetBeans.
 
 ### Temas abordados
