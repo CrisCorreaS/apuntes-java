@@ -12,6 +12,7 @@ Este repositorio contiene una colección de ejercicios de Java realizados como p
 > - [Documentación Java 21](https://docs.oracle.com/en/java/javase/21/)
 > - [JavaDoc Java 21](https://docs.oracle.com/en/java/javase/21/)
 > - [Tutoriales Java de Oracle](https://www.oracle.com/java/technologies/jdtt-jsp.html)
+> - [Learn Java](https://dev.java/learn/)
 > - [Curso de Java W3Schools](https://www.w3schools.com/java/default.asp)
 
 ## 📚 Temas abordados
