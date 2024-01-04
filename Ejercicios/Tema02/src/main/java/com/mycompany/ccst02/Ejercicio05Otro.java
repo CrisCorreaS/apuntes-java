@@ -1,0 +1,43 @@
+package com.mycompany.ccst02;
+//Cristina Correa Segade
+
+/*
+2.5. Diseñar un algoritmo al que se le introduzca la cantidad de horas, minutos y segundo
+mostrados en un reloj digital, que verifique que los valores sean correctos y calcule el total de
+segundos transcurridos desde el comienzo del día. No emplear las clases de fecha de Java.
+ */
+import java.util.Scanner;
+
+public class Ejercicio05Otro {
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        int horas, minutos, segundos;
+        boolean horasOk, minutosOk, segundosOk;
+
+        System.out.println("Introduce el número de horas: ");
+        horas = teclado.nextInt();
+
+        System.out.println("Intoduce el número de minutos: ");
+        minutos = teclado.nextInt();
+
+        System.out.println("Introduce el número de segundos: ");
+        segundos = teclado.nextInt();
+
+        horasOk = (horas > 0 && horas < 24);
+        minutosOk = (minutos > 0 && minutos < 60);
+        segundosOk = (segundos > 0 && segundos < 60);
+
+        if (horasOk && minutosOk && segundosOk) {
+            int segundosTotales;
+
+            segundosTotales = horas * 60 * 60 + minutos * 60 + segundos;
+
+            System.out.println("La hora verificada es: " + horas + ":" + minutos + ":" + segundos + " y la cantidad de segundos es igual a " + segundosTotales + " segundos");
+        } else {
+            System.out.println("La hora está mal");
+
+        }
+    }
+}

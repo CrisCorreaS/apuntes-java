@@ -1,0 +1,47 @@
+/*
+Cuestiones previas  
+Evaluar las siguientes expresiones (verdadero o falso) , teniendo en cuenta los valores de las variables 
+y razona la respuesta: 
+a) i=1                      i >= 10 
+
+b) i=1                      i > 0 && i < 10 
+   
+c) i=1                      i > 0 && i > 10                      
+
+d) i=-1                     i > 0 || i < 10 
+ 
+e) i=1, j=10                i > 0 && i < 10 || j==1 
+         
+f) i=1                      !(i==1)  
+    
+g) i=1, j=10                !(i==10) && j==10   
+         
+h) i=1, j=10                i > 2 || i < 10 && j==10    
+                  
+i) i=1, j=0, k= -1          i+k <= j-k*3 && k>=2 
+              
+j) i=3, j=2, k=-1           i==3 || j <=2 && k>0       
+             
+k) i=3, j=2, k=-1           (i==3 || j <= 2 ) && k > 0  
+             
+l) año = 2020               año % 4 ==0   
+         
+m) año = 2000               año % 4 ==0 && año %100 !=0 || año %400==0  //bisiesto 
+          
+*/
+
+//Cristina Correa Segade
+1
+a) false
+b) true
+c) false
+d) true 
+e) true
+f) false
+g) true
+h) true
+i) false
+j) true
+k) false
+l) true
+m) true
