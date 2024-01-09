@@ -19,5 +19,13 @@ public class NewMain {
 
         movil.hacerLlamada(10);
         System.out.println("El saldo del móvil después de hacer una llamada de 10 minutos es " + movil.getSaldo());
+        
+        Circulo circulo = new Circulo();
+        circulo.setRadio(3.333f);
+        
+        System.out.println("El círculo tiene una circunferencia de: " + circulo.calcularCircunferencia());                
+        System.out.println("El círculo tiene una superficie de: " + circulo.calcularSuperficie());
+        System.out.println("El círculo tiene un diámetro de: " + circulo.calcularDiametro());
+
     }
 }
