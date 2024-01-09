@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.function.Executable;
 
 /**
  *
@@ -71,6 +72,19 @@ public class MovilTest {
         boolean expResult = false;
         boolean result = instance.hacerLlamada(minutos);
         assertEquals(expResult, result);
+    }
+    
+    @Test
+    public void testHacerLlamada_4(){
+        System.out.println("hacerLlamada() cuando los minutos son letras en vez de números");
+        String minutos = "10";
+        
+        assertThrows(Exception.class, new Executable() {
+            @Override
+            public void execute() throws RuntimeException {
+                boolean result = instance.hacerLlamada(minutos); ; // Se hace la llamada del resultado aquí
+            }
+        });
     }
     
 }
